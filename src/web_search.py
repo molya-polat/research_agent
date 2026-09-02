@@ -1,8 +1,8 @@
 from dataclasses import dataclass
-
+from dotenv import load_dotenv
 from tavily import TavilyClient
 
-
+load_dotenv()
 @dataclass
 class WebResult:
     """One web search result."""
