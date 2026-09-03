@@ -1,0 +1,125 @@
+[
+  {
+    "id": "kb_01_mesa_optimization",
+    "question": "What is mesa-optimization and why is it a safety concern?",
+    "category": "kb_only",
+    "expected_tools": ["search_knowledge_base"],
+    "expected_sources": ["1906.01820"],
+    "notes": "Foundational concept, fully covered by Hubinger 2019 paper."
+  },
+  {
+    "id": "kb_02_constitutional_ai_method",
+    "question": "How does Constitutional AI train models without human feedback labels for harmfulness?",
+    "category": "kb_only",
+    "expected_tools": ["search_knowledge_base"],
+    "expected_sources": ["2212.08073"],
+    "notes": "Bai 2022 CAI paper is the primary source."
+  },
+  {
+    "id": "kb_03_sleeper_agents",
+    "question": "What are sleeper agents in the context of AI safety, and how persistent are they through safety training?",
+    "category": "kb_only",
+    "expected_tools": ["search_knowledge_base"],
+    "expected_sources": ["2401.05566"],
+    "notes": "Hubinger 2024 sleeper agents paper."
+  },
+  {
+    "id": "kb_04_rlhf",
+    "question": "What is RLHF and how did InstructGPT use it?",
+    "category": "kb_only",
+    "expected_tools": ["search_knowledge_base"],
+    "expected_sources": ["2203.02155"],
+    "notes": "InstructGPT paper. HH-RLHF (2204.05862) may also match."
+  },
+  {
+    "id": "kb_05_reward_hacking",
+    "question": "What is reward hacking and what are the main forms it takes?",
+    "category": "kb_only",
+    "expected_tools": ["search_knowledge_base"],
+    "expected_sources": ["1606.06565"],
+    "notes": "Concrete Problems in AI Safety is the canonical reference."
+  },
+  {
+    "id": "kb_06_scalable_oversight",
+    "question": "What is scalable oversight and why is it needed for aligning superhuman models?",
+    "category": "kb_only",
+    "expected_tools": ["search_knowledge_base"],
+    "expected_sources": ["2211.03540", "2312.09390"],
+    "notes": "Bowman scalable oversight and/or Burns weak-to-strong."
+  },
+
+  {
+    "id": "web_01_uk_pm",
+    "question": "Who is the current Prime Minister of the United Kingdom?",
+    "category": "web_only",
+    "expected_tools": ["search_web"],
+    "expected_sources": [],
+    "notes": "Present-day political fact, outside corpus."
+  },
+  {
+    "id": "web_02_us_election_2024",
+    "question": "Who won the 2024 US presidential election?",
+    "category": "web_only",
+    "expected_tools": ["search_web"],
+    "expected_sources": [],
+    "notes": "Recent event, outside corpus."
+  },
+  {
+    "id": "web_03_ai_act",
+    "question": "What is the current status of the EU AI Act enforcement in 2026?",
+    "category": "web_only",
+    "expected_tools": ["search_web"],
+    "expected_sources": [],
+    "notes": "Regulatory update, not covered by academic corpus."
+  },
+  {
+    "id": "web_04_anthropic_models",
+    "question": "What are Anthropic's latest publicly released Claude models as of 2026?",
+    "category": "web_only",
+    "expected_tools": ["search_web"],
+    "expected_sources": [],
+    "notes": "Product timeline, outside academic corpus."
+  },
+
+  {
+    "id": "both_01_cai_recent",
+    "question": "What is Constitutional AI, and what recent research has built on it?",
+    "category": "both",
+    "expected_tools": ["search_knowledge_base", "search_web"],
+    "expected_sources": ["2212.08073"],
+    "notes": "Foundational KB concept + recent developments (web)."
+  },
+  {
+    "id": "both_02_interpretability_progress",
+    "question": "What is mechanistic interpretability, and what recent breakthroughs have been reported since 2024?",
+    "category": "both",
+    "expected_tools": ["search_knowledge_base", "search_web"],
+    "expected_sources": ["2209.10652"],
+    "notes": "Toy Models of Superposition covers foundations; recent work on web."
+  },
+  {
+    "id": "both_03_rlhf_alternatives",
+    "question": "How does RLHF work, and what alternatives to RLHF are being explored in recent research?",
+    "category": "both",
+    "expected_tools": ["search_knowledge_base", "search_web"],
+    "expected_sources": ["2203.02155", "2204.05862"],
+    "notes": "Foundational RLHF from KB; DPO, RLAIF, and other alternatives from web."
+  },
+  {
+    "id": "both_04_deceptive_alignment_updates",
+    "question": "What is deceptive alignment, and what recent empirical evidence has been found for or against it?",
+    "category": "both",
+    "expected_tools": ["search_knowledge_base", "search_web"],
+    "expected_sources": ["1906.01820", "2401.05566"],
+    "notes": "Mesa-optimization foundations + sleeper agents empirical; recent follow-ups on web."
+  },
+
+  {
+    "id": "edge_01_out_of_scope",
+    "question": "What are the best hiking trails near Edinburgh?",
+    "category": "out_of_scope",
+    "expected_tools": ["search_web"],
+    "expected_sources": [],
+    "notes": "Should NOT hit the KB. Web-only if the agent chooses to answer at all."
+  }
+]
