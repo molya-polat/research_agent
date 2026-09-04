@@ -7,6 +7,14 @@ from dataclasses import dataclass
 
 from src.tools import ALL_TOOLS, run_tool
 
+try:
+    import streamlit as st
+    for key in ("ANTHROPIC_API_KEY", "TAVILY_API_KEY"):
+        if key in st.secrets and not os.environ.get(key):
+            os.environ[key] = st.secrets[key]
+except (ImportError, FileNotFoundError, AttributeError):
+    pass  # not running under Streamlit, or no secrets file — .env is used
+
 
 SYSTEM_PROMPT = """You are a research assistant with two knowledge sources:
 

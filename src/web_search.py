@@ -3,6 +3,13 @@ from dotenv import load_dotenv
 from tavily import TavilyClient
 
 load_dotenv()
+try:
+    import streamlit as st
+    for key in ("TAVILY_API_KEY",):
+        if key in st.secrets and not os.environ.get(key):
+            os.environ[key] = st.secrets[key]
+except (ImportError, FileNotFoundError, AttributeError):
+    pass
 @dataclass
 class WebResult:
     """One web search result."""
