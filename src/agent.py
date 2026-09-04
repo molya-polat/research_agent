@@ -12,7 +12,7 @@ try:
     for key in ("ANTHROPIC_API_KEY", "TAVILY_API_KEY"):
         if key in st.secrets and not os.environ.get(key):
             os.environ[key] = st.secrets[key]
-except (ImportError, FileNotFoundError, AttributeError):
+except Exception:
     pass  # not running under Streamlit, or no secrets file — .env is used
 
 
