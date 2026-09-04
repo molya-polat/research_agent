@@ -1,0 +1,24 @@
+filename,title,arxiv_id,first_author,year
+concrete_problems_amodei_2016.pdf,Concrete Problems in AI Safety,1606.06565,Dario Amodei,2016
+deep_rl_from_preferences_christiano_2023.pdf,Deep Reinforcement Learning from Human Preferences,1706.03741,Paul F Christiano,2023
+ai_safety_gridworlds_leike_2017.pdf,AI Safety Gridworlds,1711.09883,Jan Leike,2017
+ai_safety_via_debate_irving_2018.pdf,AI safety via debate,1805.00899,Geoffrey Irving,2018
+reward_modeling_leike_2018.pdf,Scalable agent alignment via reward modeling: a research direction,1811.07871,Jan Leike,2018
+mesa_optimization_hubinger_2021.pdf,Risks from Learned Optimization in Advanced Machine Learning Systems,1906.01820,Evan Hubinger,2021
+red_teaming_lms_perez_2022.pdf,Red Teaming Language Models with Language Models,2202.03286,Ethan Perez,2022
+instructgpt_ouyang_2022.pdf,Training language models to follow instructions with human feedback,2203.02155,Long Ouyang,2022
+hh_rlhf_bai_2022.pdf,Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback,2204.05862,Yuntao Bai,2022
+know_what_they_know_kadavath_2022.pdf,Language Models (Mostly) Know What They Know,2207.05221,Saurav Kadavath,2022
+toy_models_superposition_elhage_2022.pdf,Toy Models of Superposition,2209.10652,Nelson Elhage,2022
+scalable_oversight_bowman_2022.pdf,Measuring Progress on Scalable Oversight for Large Language Models,2211.03540,Samuel R. Bowman,2022
+latent_knowledge_burns_2024.pdf,DISCOVERING LATENT KNOWLEDGE IN LANGUAGE MODELS WITHOUT SUPERVISION,2212.03827,Collin Burns,2024
+constitutional_ai_bai_2022.pdf,Constitutional AI: Harmlessness from AI Feedback,2212.08073,Yuntao Bai,2022
+model_written_evals_perez_2022.pdf,Discovering Language Model Behaviors with Model-Written Evaluations,2212.09251,Ethan Perez,2022
+extreme_risk_evals_shevlane_2023.pdf,Model evaluation for extreme risks,2305.15324,Toby Shevlane,2023
+managing_extreme_risks_bengio_2024.pdf,Managing extreme AI risks amid rapid progress,2310.17688,Yoshua Bengio,2024
+weak_to_strong_burns_2023.pdf,WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION,2312.09390,Collin Burns,2023
+sleeper_agents_hubinger_2024.pdf,SLEEPER AGENTS: TRAINING DECEPTIVE LLMS THAT PERSIST THROUGH SAFETY TRAINING,2401.05566,Evan Hubinger,2024
+dangerous_capabilities_phuong_2024.pdf,Evaluating Frontier Models for Dangerous Capabilities,2403.13793,Mary Phuong,2024
+transformer_circuits_elhage_2021.pdf,A Mathematical Framework for Transformer Circuits,"Anthropic's transformer-circuits.pub posts,",Nelson Elhage,2021
+softmax_linear_units_elhage_2022.pdf,Softmax Linear Units,"Anthropic's transformer-circuits.pub posts,",Nelson Elhage,2022
+monosemanticity_bricken_2023.pdf,Towards Monosemanticity: Decomposing Language Models With Dictionary Learning,"Anthropic's transformer-circuits.pub posts,",Trenton Bricken,2023
