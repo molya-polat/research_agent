@@ -8,8 +8,8 @@ try:
     for key in ("TAVILY_API_KEY",):
         if key in st.secrets and not os.environ.get(key):
             os.environ[key] = st.secrets[key]
-except (ImportError, FileNotFoundError, AttributeError):
-    pass
+except Exception:
+    pass  # not running under Streamlit, or secrets not yet available
 @dataclass
 class WebResult:
     """One web search result."""
